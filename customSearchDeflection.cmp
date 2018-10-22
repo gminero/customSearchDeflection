@@ -13,7 +13,7 @@
     <!--Lightning Layout - add lightning:layoutItem's for other items that need displayed -->
     <lightning:layout multipleRows="true">
         
-        <lightning:layoutItem size="12" aura:id="coveoDeflectionComponent" class="slds-hide slds-m-top_xx-large">
+        <lightning:layoutItem size="12" aura:id="coveoDeflectionComponent" class="slds-m-top_xx-large">
             <!-- Coveo Search Deflection Component-->
             <CoveoV2:Search name="{!v.name}"  
                             searchHub="{!v.searchHub}" 
