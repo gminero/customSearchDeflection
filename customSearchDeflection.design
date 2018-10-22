@@ -4,8 +4,5 @@
     <design:attribute name="searchHub" label="Search Hub" />
     <design:attribute name="autoInitialize" label="autoInitialize" />
     <design:attribute name="autoInjectBasicQuery" label="autoInjectBasicQuery" />
-    <design:attribute name="autoInjectBasicOptions" label="autoInjectBasicOptions" />
-    <design:attribute name="formTitle" label="Form Title" />
-    <design:attribute name="formText" label="Form Text" />
-    
+    <design:attribute name="autoInjectBasicOptions" label="autoInjectBasicOptions" />    
 </design:component>
