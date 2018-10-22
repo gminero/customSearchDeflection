@@ -18,7 +18,7 @@ This component is meant to be used as a standalone Deflection Component in Light
 - If the pipeline override query rule is properly set, the changed field values should be added in the context of a [large query expression](https://docs.coveo.com/en/214/glossary/large-query-expression)
 
 ### Debug/Troubleshooting
-- Pen you Browser Developer Tools (Chrome = F12 or CTRL+Shift+J)
+- Open you Browser Developer Tools (Chrome = F12 or CTRL+Shift+J)
 - Select the Network Tab and select the XHR & Fetch tab/pill.
 - change a field value for a query to trigger
 - A request with the name V2 should populate (V2?authentication sometimes)
