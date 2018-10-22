@@ -1,7 +1,6 @@
 # Custom Search Deflection Lightning Component
 
-This cocmponent is meant to be used as a standalone Deflection Component in Lightning Communities. In order to work, you must either be using the Standard 'Contact Support Form'
-You can also Create a Ligthning Case Creation Form, preferably using the [Record Edit Form](https://developer.salesforce.com/docs/component-library/bundle/lightning:recordEditForm/example)
+This component is meant to be used as a standalone Deflection Component in Lightning Communities. In order to work, you must either be using the Standard 'Contact Support Form' or have a Custom Form that fires an `selfService:caseCreateFieldChange` Event preferably using the [Record Edit Form](https://developer.salesforce.com/docs/component-library/bundle/lightning:recordEditForm/example)
 
 ## Getting Started (Salesforce)
 
