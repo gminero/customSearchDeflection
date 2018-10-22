@@ -1,0 +1,11 @@
+<design:component label="Custom Coveo Case Deflection">
+    <design:attribute name="name" label="Name" />
+    <design:attribute name="debug" label="Debug" />
+    <design:attribute name="searchHub" label="Search Hub" />
+    <design:attribute name="autoInitialize" label="autoInitialize" />
+    <design:attribute name="autoInjectBasicQuery" label="autoInjectBasicQuery" />
+    <design:attribute name="autoInjectBasicOptions" label="autoInjectBasicOptions" />
+    <design:attribute name="formTitle" label="Form Title" />
+    <design:attribute name="formText" label="Form Text" />
+    
+</design:component>

@@ -1,0 +1,31 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    <!--Coveo Attributes -->    
+    <aura:attribute name="name" type="String" default="communityCoveo" access="global" />
+    <aura:attribute name="debug" type="Boolean" default="false" access="global" />
+    <aura:attribute name="searchHub" type="String" default="" access="global" />
+    <aura:attribute name="autoInitialize" type="Boolean" default="true" access="global" />
+    <aura:attribute name="autoInjectBasicQuery" type="Boolean" default="true" access="global" />
+    <aura:attribute name="autoInjectBasicOptions" type="Boolean" default="true" access="global" />
+
+    <!--CaseDeflection EventHandler -->
+    <aura:handler event="selfService:caseCreateFieldChange" action="{!c.handleApplicationEvent}"/>    
+
+    <!--Lightning Layout - add lightning:layoutItem's for other items that need displayed -->
+    <lightning:layout multipleRows="true">
+        
+        <lightning:layoutItem size="12" aura:id="coveoDeflectionComponent" class="slds-hide slds-m-top_xx-large">
+            <!-- Coveo Search Deflection Component-->
+            <CoveoV2:Search name="{!v.name}"  
+                            searchHub="{!v.searchHub}" 
+                            autoInitialize="{!v.autoInitialize}"
+                            autoInjectBasicQuery="{!v.autoInjectBasicQuery}" 
+                            autoInjectBasicOptions="{!v.autoInjectBasicOptions}" 
+                            debug="{!v.debug}" 
+                            customScripts="{!$Resource.customCoveoDeflection}"/>
+
+        </lightning:layoutItem>
+        
+    </lightning:layout>
+    
+    
+</aura:component>
