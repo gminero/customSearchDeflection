@@ -15,7 +15,7 @@ This component is meant to be used as a standalone Deflection Component in Light
 - Add a Query Parameter rule WITH CODE as follows:
    -`override query lq:"<@+ $context.Subject $context.Description +@>"`
 - Whenever a Field Change occurs on the form (for the Out of the box Contact Support Form) - a query should be triggered.
-- If the pipeline override query rule is properly set, the changed field values should be added in the cocntext of a [large query expression](https://docs.coveo.com/en/214/glossary/large-query-expression)
+- If the pipeline override query rule is properly set, the changed field values should be added in the context of a [large query expression](https://docs.coveo.com/en/214/glossary/large-query-expression)
 
 ### Debug/Troubleshooting
 - Pen you Browser Developer Tools (Chrome = F12 or CTRL+Shift+J)
