@@ -26,5 +26,6 @@ This component is meant to be used as a standalone Deflection Component in Light
 - Scroll all the way down, under Form Data, there should Context
 - In the Context, there should be the Field Names and Values added everytime a field is filled or changed.
 
-##For more on Managinf Query Pipelines
--[Managing Query Pipelines](https://docs.coveo.com/en/1791/cloud-v2-administrators/managing-query-pipelines)
+## Documentation
+
+- [Managing Query Pipelines](https://docs.coveo.com/en/1791/cloud-v2-administrators/managing-query-pipelines)
