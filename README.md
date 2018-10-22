@@ -24,4 +24,5 @@ You can also Create a Ligthning Case Creation Form, preferably using the [Record
 - change a field value for a query to trigger
 - A request with the name V2 should populate (V2?authentication sometimes)
 -select it and the default tab should be `Headers`
-- Scroll all the way down, there should be a ...
+- Scroll all the way down, under Form Data, there should Context
+- In the Context, there should be the Field Names and Values added everytime a field is filled or changed.
